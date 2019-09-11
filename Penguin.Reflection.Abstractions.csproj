@@ -6,21 +6,24 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Copyright></Copyright>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
-    <PackageProjectUrl>http://www.penguinms.com/Nuget</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/penguincms/Penguin.Reflection.Abstractions</PackageProjectUrl>
 	<PackageIconUrl>http://www.penguinms.com/client/images/pg.png</PackageIconUrl>
     <Version>2.0.6</Version>
+	<IncludeSymbols>true</IncludeSymbols>    
+<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
 	<Description>A few abstract classes for use with the Penguin.Reflection system</Description>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <WarningsAsErrors>NU1605, CS1591</WarningsAsErrors>
-    <DocumentationFile>C:\SVN\Framework\Nuget\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>Penguin.Reflection.Abstractions.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 	<DebugType>full</DebugType>
-    <DocumentationFile>C:\SVN\Framework\Nuget\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>Penguin.Reflection.Abstractions.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\License.txt">
+    <None Include="License.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
