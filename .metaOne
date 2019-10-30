@@ -319,10 +319,10 @@
                                                                                             "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Cms.Repositories\\Penguin.Cms.Repositories.csproj",
                                                                                             "Dependants": [
                                                                                               {
-                                                                                                "$ref": "26"
+                                                                                                "$ref": "12"
                                                                                               },
                                                                                               {
-                                                                                                "$ref": "12"
+                                                                                                "$ref": "26"
                                                                                               },
                                                                                               {
                                                                                                 "$id": "28",
@@ -662,9 +662,6 @@
                                                                                                                                                                                         "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Messaging.Logging\\Penguin.Messaging.Logging.csproj",
                                                                                                                                                                                         "Dependants": [
                                                                                                                                                                                           {
-                                                                                                                                                                                            "$ref": "33"
-                                                                                                                                                                                          },
-                                                                                                                                                                                          {
                                                                                                                                                                                             "$id": "54",
                                                                                                                                                                                             "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                             "lockGraph": {
@@ -807,6 +804,9 @@
                                                                                                                                                                                                                           },
                                                                                                                                                                                                                           {
                                                                                                                                                                                                                             "$ref": "12"
+                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                          {
+                                                                                                                                                                                                                            "$ref": "61"
                                                                                                                                                                                                                           },
                                                                                                                                                                                                                           {
                                                                                                                                                                                                                             "$id": "63",
@@ -1455,6 +1455,9 @@
                                                                                                                                                                                                                                                                                                 "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Persistence.Abstractions\\Penguin.Persistence.Abstractions.csproj",
                                                                                                                                                                                                                                                                                                 "Dependants": [
                                                                                                                                                                                                                                                                                                   {
+                                                                                                                                                                                                                                                                                                    "$ref": "10"
+                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                  {
                                                                                                                                                                                                                                                                                                     "$id": "100",
                                                                                                                                                                                                                                                                                                     "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                                                                                     "lockGraph": {
@@ -1469,9 +1472,6 @@
                                                                                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                                                                                     ],
                                                                                                                                                                                                                                                                                                     "Name": "Penguin.Cms.Attributes"
-                                                                                                                                                                                                                                                                                                  },
-                                                                                                                                                                                                                                                                                                  {
-                                                                                                                                                                                                                                                                                                    "$ref": "10"
                                                                                                                                                                                                                                                                                                   },
                                                                                                                                                                                                                                                                                                   {
                                                                                                                                                                                                                                                                                                     "$ref": "55"
@@ -1754,6 +1754,41 @@
                                                                                                                                                                                                                                                                                                     "lockGraph": {
                                                                                                                                                                                                                                                                                                       "$type": "System.Object, System.Private.CoreLib"
                                                                                                                                                                                                                                                                                                     },
+                                                                                                                                                                                                                                                                                                    "_path": "C:\\Penguin\\Repositories\\Penguin.Web.IPService",
+                                                                                                                                                                                                                                                                                                    "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Web.IPService\\Penguin.Web.IPService.csproj",
+                                                                                                                                                                                                                                                                                                    "Dependants": [],
+                                                                                                                                                                                                                                                                                                    "Dependencies": [
+                                                                                                                                                                                                                                                                                                      {
+                                                                                                                                                                                                                                                                                                        "$id": "114",
+                                                                                                                                                                                                                                                                                                        "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
+                                                                                                                                                                                                                                                                                                        "lockGraph": {
+                                                                                                                                                                                                                                                                                                          "$type": "System.Object, System.Private.CoreLib"
+                                                                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                                                                        "_path": "C:\\Penguin\\Repositories\\Penguin.Console",
+                                                                                                                                                                                                                                                                                                        "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Console\\Penguin.Console.csproj",
+                                                                                                                                                                                                                                                                                                        "Dependants": [
+                                                                                                                                                                                                                                                                                                          {
+                                                                                                                                                                                                                                                                                                            "$ref": "113"
+                                                                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                                                                        ],
+                                                                                                                                                                                                                                                                                                        "Dependencies": [],
+                                                                                                                                                                                                                                                                                                        "Name": "Penguin.Console"
+                                                                                                                                                                                                                                                                                                      },
+                                                                                                                                                                                                                                                                                                      {
+                                                                                                                                                                                                                                                                                                        "$ref": "93"
+                                                                                                                                                                                                                                                                                                      },
+                                                                                                                                                                                                                                                                                                      {
+                                                                                                                                                                                                                                                                                                        "$ref": "112"
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                    ],
+                                                                                                                                                                                                                                                                                                    "Name": "Penguin.Web.IPService"
+                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                  {
+                                                                                                                                                                                                                                                                                                    "$id": "115",
+                                                                                                                                                                                                                                                                                                    "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
+                                                                                                                                                                                                                                                                                                    "lockGraph": {
+                                                                                                                                                                                                                                                                                                      "$type": "System.Object, System.Private.CoreLib"
+                                                                                                                                                                                                                                                                                                    },
                                                                                                                                                                                                                                                                                                     "_path": "C:\\Penguin\\Repositories\\Penguin.Web.XmlClient",
                                                                                                                                                                                                                                                                                                     "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Web.XmlClient\\Penguin.Web.XmlClient.csproj",
                                                                                                                                                                                                                                                                                                     "Dependants": [],
@@ -1791,6 +1826,9 @@
                                                                                                                                                                                                                                                                                           },
                                                                                                                                                                                                                                                                                           {
                                                                                                                                                                                                                                                                                             "$ref": "91"
+                                                                                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                                                                                          {
+                                                                                                                                                                                                                                                                                            "$ref": "113"
                                                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                                                         ],
                                                                                                                                                                                                                                                                                         "Dependencies": [],
@@ -1818,7 +1856,7 @@
                                                                                                                                                                                                                                                                             "$ref": "18"
                                                                                                                                                                                                                                                                           },
                                                                                                                                                                                                                                                                           {
-                                                                                                                                                                                                                                                                            "$id": "114",
+                                                                                                                                                                                                                                                                            "$id": "116",
                                                                                                                                                                                                                                                                             "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                                                             "lockGraph": {
                                                                                                                                                                                                                                                                               "$type": "System.Object, System.Private.CoreLib"
@@ -1832,6 +1870,61 @@
                                                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                                                             ],
                                                                                                                                                                                                                                                                             "Name": "Penguin.IO"
+                                                                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                                                                          {
+                                                                                                                                                                                                                                                                            "$id": "117",
+                                                                                                                                                                                                                                                                            "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
+                                                                                                                                                                                                                                                                            "lockGraph": {
+                                                                                                                                                                                                                                                                              "$type": "System.Object, System.Private.CoreLib"
+                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                            "_path": "C:\\Penguin\\Repositories\\Penguin.Persistence.Repositories.EntityFramework",
+                                                                                                                                                                                                                                                                            "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Persistence.Repositories.EntityFramework\\Penguin.Persistence.Repositories.EntityFramework.csproj",
+                                                                                                                                                                                                                                                                            "Dependants": [
+                                                                                                                                                                                                                                                                              {
+                                                                                                                                                                                                                                                                                "$ref": "5"
+                                                                                                                                                                                                                                                                              }
+                                                                                                                                                                                                                                                                            ],
+                                                                                                                                                                                                                                                                            "Dependencies": [
+                                                                                                                                                                                                                                                                              {
+                                                                                                                                                                                                                                                                                "$ref": "53"
+                                                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                                                              {
+                                                                                                                                                                                                                                                                                "$ref": "17"
+                                                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                                                              {
+                                                                                                                                                                                                                                                                                "$id": "118",
+                                                                                                                                                                                                                                                                                "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
+                                                                                                                                                                                                                                                                                "lockGraph": {
+                                                                                                                                                                                                                                                                                  "$type": "System.Object, System.Private.CoreLib"
+                                                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                                                "_path": "C:\\Penguin\\Repositories\\Penguin.Persistence.EntityFramework",
+                                                                                                                                                                                                                                                                                "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Persistence.EntityFramework\\Penguin.Persistence.EntityFramework.csproj",
+                                                                                                                                                                                                                                                                                "Dependants": [
+                                                                                                                                                                                                                                                                                  {
+                                                                                                                                                                                                                                                                                    "$ref": "5"
+                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                  {
+                                                                                                                                                                                                                                                                                    "$ref": "117"
+                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                ],
+                                                                                                                                                                                                                                                                                "Dependencies": [
+                                                                                                                                                                                                                                                                                  {
+                                                                                                                                                                                                                                                                                    "$ref": "55"
+                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                  {
+                                                                                                                                                                                                                                                                                    "$ref": "9"
+                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                  {
+                                                                                                                                                                                                                                                                                    "$ref": "3"
+                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                ],
+                                                                                                                                                                                                                                                                                "Name": "Penguin.Persistence.EntityFramework"
+                                                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                                                              {
+                                                                                                                                                                                                                                                                                "$ref": "83"
+                                                                                                                                                                                                                                                                              }
+                                                                                                                                                                                                                                                                            ],
+                                                                                                                                                                                                                                                                            "Name": "Penguin.Persistence.Repositories.EntityFramework"
                                                                                                                                                                                                                                                                           },
                                                                                                                                                                                                                                                                           {
                                                                                                                                                                                                                                                                             "$ref": "82"
@@ -1876,7 +1969,7 @@
                                                                                                                                                                                                                                                             "$ref": "99"
                                                                                                                                                                                                                                                           },
                                                                                                                                                                                                                                                           {
-                                                                                                                                                                                                                                                            "$id": "115",
+                                                                                                                                                                                                                                                            "$id": "119",
                                                                                                                                                                                                                                                             "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                                             "lockGraph": {
                                                                                                                                                                                                                                                               "$type": "System.Object, System.Private.CoreLib"
@@ -1903,7 +1996,7 @@
                                                                                                                                                                                                                                                     ],
                                                                                                                                                                                                                                                     "Dependencies": [
                                                                                                                                                                                                                                                       {
-                                                                                                                                                                                                                                                        "$id": "116",
+                                                                                                                                                                                                                                                        "$id": "120",
                                                                                                                                                                                                                                                         "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                                         "lockGraph": {
                                                                                                                                                                                                                                                           "$type": "System.Object, System.Private.CoreLib"
@@ -1928,7 +2021,7 @@
                                                                                                                                                                                                                                                     "$ref": "9"
                                                                                                                                                                                                                                                   },
                                                                                                                                                                                                                                                   {
-                                                                                                                                                                                                                                                    "$id": "117",
+                                                                                                                                                                                                                                                    "$id": "121",
                                                                                                                                                                                                                                                     "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                                     "lockGraph": {
                                                                                                                                                                                                                                                       "$type": "System.Object, System.Private.CoreLib"
@@ -1940,7 +2033,7 @@
                                                                                                                                                                                                                                                         "$ref": "57"
                                                                                                                                                                                                                                                       },
                                                                                                                                                                                                                                                       {
-                                                                                                                                                                                                                                                        "$id": "118",
+                                                                                                                                                                                                                                                        "$id": "122",
                                                                                                                                                                                                                                                         "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                                         "lockGraph": {
                                                                                                                                                                                                                                                           "$type": "System.Object, System.Private.CoreLib"
@@ -1960,7 +2053,7 @@
                                                                                                                                                                                                                                                         ],
                                                                                                                                                                                                                                                         "Dependencies": [
                                                                                                                                                                                                                                                           {
-                                                                                                                                                                                                                                                            "$ref": "117"
+                                                                                                                                                                                                                                                            "$ref": "121"
                                                                                                                                                                                                                                                           }
                                                                                                                                                                                                                                                         ],
                                                                                                                                                                                                                                                         "Name": "Penguin.Email.Abstractions"
@@ -1979,7 +2072,7 @@
                                                                                                                                                                                                                                                 "$ref": "8"
                                                                                                                                                                                                                                               },
                                                                                                                                                                                                                                               {
-                                                                                                                                                                                                                                                "$id": "119",
+                                                                                                                                                                                                                                                "$id": "123",
                                                                                                                                                                                                                                                 "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                                 "lockGraph": {
                                                                                                                                                                                                                                                   "$type": "System.Object, System.Private.CoreLib"
@@ -2010,7 +2103,7 @@
                                                                                                                                                                                                                                             "$ref": "9"
                                                                                                                                                                                                                                           },
                                                                                                                                                                                                                                           {
-                                                                                                                                                                                                                                            "$ref": "118"
+                                                                                                                                                                                                                                            "$ref": "122"
                                                                                                                                                                                                                                           },
                                                                                                                                                                                                                                           {
                                                                                                                                                                                                                                             "$ref": "66"
@@ -2026,7 +2119,7 @@
                                                                                                                                                                                                                                     "$ref": "55"
                                                                                                                                                                                                                                   },
                                                                                                                                                                                                                                   {
-                                                                                                                                                                                                                                    "$id": "120",
+                                                                                                                                                                                                                                    "$id": "124",
                                                                                                                                                                                                                                     "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                     "lockGraph": {
                                                                                                                                                                                                                                       "$type": "System.Object, System.Private.CoreLib"
@@ -2051,13 +2144,10 @@
                                                                                                                                                                                                                             "Name": "Penguin.Cms.Images.Repositories"
                                                                                                                                                                                                                           },
                                                                                                                                                                                                                           {
-                                                                                                                                                                                                                            "$ref": "61"
-                                                                                                                                                                                                                          },
-                                                                                                                                                                                                                          {
                                                                                                                                                                                                                             "$ref": "84"
                                                                                                                                                                                                                           },
                                                                                                                                                                                                                           {
-                                                                                                                                                                                                                            "$id": "121",
+                                                                                                                                                                                                                            "$id": "125",
                                                                                                                                                                                                                             "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                             "lockGraph": {
                                                                                                                                                                                                                               "$type": "System.Object, System.Private.CoreLib"
@@ -2077,7 +2167,7 @@
                                                                                                                                                                                                                                 "$ref": "10"
                                                                                                                                                                                                                               },
                                                                                                                                                                                                                               {
-                                                                                                                                                                                                                                "$id": "122",
+                                                                                                                                                                                                                                "$id": "126",
                                                                                                                                                                                                                                 "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                 "lockGraph": {
                                                                                                                                                                                                                                   "$type": "System.Object, System.Private.CoreLib"
@@ -2092,10 +2182,10 @@
                                                                                                                                                                                                                                     "$ref": "34"
                                                                                                                                                                                                                                   },
                                                                                                                                                                                                                                   {
-                                                                                                                                                                                                                                    "$ref": "121"
+                                                                                                                                                                                                                                    "$ref": "125"
                                                                                                                                                                                                                                   },
                                                                                                                                                                                                                                   {
-                                                                                                                                                                                                                                    "$id": "123",
+                                                                                                                                                                                                                                    "$id": "127",
                                                                                                                                                                                                                                     "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                     "lockGraph": {
                                                                                                                                                                                                                                       "$type": "System.Object, System.Private.CoreLib"
@@ -2104,7 +2194,7 @@
                                                                                                                                                                                                                                     "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Cms.Workers.Entities\\Penguin.Cms.Workers.Entities.csproj",
                                                                                                                                                                                                                                     "Dependants": [
                                                                                                                                                                                                                                       {
-                                                                                                                                                                                                                                        "$id": "124",
+                                                                                                                                                                                                                                        "$id": "128",
                                                                                                                                                                                                                                         "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                                         "lockGraph": {
                                                                                                                                                                                                                                           "$type": "System.Object, System.Private.CoreLib"
@@ -2121,7 +2211,7 @@
                                                                                                                                                                                                                                         ],
                                                                                                                                                                                                                                         "Dependencies": [
                                                                                                                                                                                                                                           {
-                                                                                                                                                                                                                                            "$ref": "123"
+                                                                                                                                                                                                                                            "$ref": "127"
                                                                                                                                                                                                                                           },
                                                                                                                                                                                                                                           {
                                                                                                                                                                                                                                             "$ref": "27"
@@ -2135,7 +2225,7 @@
                                                                                                                                                                                                                                         "$ref": "55"
                                                                                                                                                                                                                                       },
                                                                                                                                                                                                                                       {
-                                                                                                                                                                                                                                        "$ref": "122"
+                                                                                                                                                                                                                                        "$ref": "126"
                                                                                                                                                                                                                                       }
                                                                                                                                                                                                                                     ],
                                                                                                                                                                                                                                     "Name": "Penguin.Cms.Workers.Entities"
@@ -2163,7 +2253,7 @@
                                                                                                                                                                                                                             "$ref": "35"
                                                                                                                                                                                                                           },
                                                                                                                                                                                                                           {
-                                                                                                                                                                                                                            "$id": "125",
+                                                                                                                                                                                                                            "$id": "129",
                                                                                                                                                                                                                             "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                             "lockGraph": {
                                                                                                                                                                                                                               "$type": "System.Object, System.Private.CoreLib"
@@ -2195,7 +2285,7 @@
                                                                                                                                                                                                                         "Name": "Penguin.Security.Abstractions"
                                                                                                                                                                                                                       },
                                                                                                                                                                                                                       {
-                                                                                                                                                                                                                        "$id": "126",
+                                                                                                                                                                                                                        "$id": "130",
                                                                                                                                                                                                                         "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                         "lockGraph": {
                                                                                                                                                                                                                           "$type": "System.Object, System.Private.CoreLib"
@@ -2212,7 +2302,7 @@
                                                                                                                                                                                                                             "$ref": "55"
                                                                                                                                                                                                                           },
                                                                                                                                                                                                                           {
-                                                                                                                                                                                                                            "$id": "127",
+                                                                                                                                                                                                                            "$id": "131",
                                                                                                                                                                                                                             "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                                                             "lockGraph": {
                                                                                                                                                                                                                               "$type": "System.Object, System.Private.CoreLib"
@@ -2221,7 +2311,7 @@
                                                                                                                                                                                                                             "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Forms.Abstractions\\Penguin.Forms.Abstractions.csproj",
                                                                                                                                                                                                                             "Dependants": [
                                                                                                                                                                                                                               {
-                                                                                                                                                                                                                                "$ref": "126"
+                                                                                                                                                                                                                                "$ref": "130"
                                                                                                                                                                                                                               }
                                                                                                                                                                                                                             ],
                                                                                                                                                                                                                             "Dependencies": [],
@@ -2246,12 +2336,12 @@
                                                                                                                                                                                                                 "Name": "Penguin.Cms.Modules.Forms"
                                                                                                                                                                                                               },
                                                                                                                                                                                                               {
-                                                                                                                                                                                                                "$ref": "121"
+                                                                                                                                                                                                                "$ref": "125"
                                                                                                                                                                                                               }
                                                                                                                                                                                                             ],
                                                                                                                                                                                                             "Dependencies": [
                                                                                                                                                                                                               {
-                                                                                                                                                                                                                "$ref": "118"
+                                                                                                                                                                                                                "$ref": "122"
                                                                                                                                                                                                               }
                                                                                                                                                                                                             ],
                                                                                                                                                                                                             "Name": "Penguin.Cms.Email.Abstractions"
@@ -2280,13 +2370,13 @@
                                                                                                                                                                                                         "$ref": "55"
                                                                                                                                                                                                       },
                                                                                                                                                                                                       {
-                                                                                                                                                                                                        "$ref": "117"
+                                                                                                                                                                                                        "$ref": "121"
                                                                                                                                                                                                       }
                                                                                                                                                                                                     ],
                                                                                                                                                                                                     "Name": "Penguin.Cms.Files"
                                                                                                                                                                                                   },
                                                                                                                                                                                                   {
-                                                                                                                                                                                                    "$ref": "126"
+                                                                                                                                                                                                    "$ref": "130"
                                                                                                                                                                                                   },
                                                                                                                                                                                                   {
                                                                                                                                                                                                     "$ref": "65"
@@ -2310,68 +2400,19 @@
                                                                                                                                                                                                     "$ref": "27"
                                                                                                                                                                                                   },
                                                                                                                                                                                                   {
-                                                                                                                                                                                                    "$ref": "121"
+                                                                                                                                                                                                    "$ref": "125"
                                                                                                                                                                                                   },
                                                                                                                                                                                                   {
                                                                                                                                                                                                     "$ref": "24"
                                                                                                                                                                                                   },
                                                                                                                                                                                                   {
-                                                                                                                                                                                                    "$ref": "125"
+                                                                                                                                                                                                    "$ref": "129"
                                                                                                                                                                                                   },
                                                                                                                                                                                                   {
-                                                                                                                                                                                                    "$ref": "123"
+                                                                                                                                                                                                    "$ref": "127"
                                                                                                                                                                                                   },
                                                                                                                                                                                                   {
-                                                                                                                                                                                                    "$id": "128",
-                                                                                                                                                                                                    "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
-                                                                                                                                                                                                    "lockGraph": {
-                                                                                                                                                                                                      "$type": "System.Object, System.Private.CoreLib"
-                                                                                                                                                                                                    },
-                                                                                                                                                                                                    "_path": "C:\\Penguin\\Repositories\\Penguin.Persistence.EntityFramework",
-                                                                                                                                                                                                    "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Persistence.EntityFramework\\Penguin.Persistence.EntityFramework.csproj",
-                                                                                                                                                                                                    "Dependants": [
-                                                                                                                                                                                                      {
-                                                                                                                                                                                                        "$ref": "5"
-                                                                                                                                                                                                      },
-                                                                                                                                                                                                      {
-                                                                                                                                                                                                        "$id": "129",
-                                                                                                                                                                                                        "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
-                                                                                                                                                                                                        "lockGraph": {
-                                                                                                                                                                                                          "$type": "System.Object, System.Private.CoreLib"
-                                                                                                                                                                                                        },
-                                                                                                                                                                                                        "_path": "C:\\Penguin\\Repositories\\Penguin.Persistence.Repositories.EntityFramework",
-                                                                                                                                                                                                        "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Persistence.Repositories.EntityFramework\\Penguin.Persistence.Repositories.EntityFramework.csproj",
-                                                                                                                                                                                                        "Dependants": [
-                                                                                                                                                                                                          {
-                                                                                                                                                                                                            "$ref": "5"
-                                                                                                                                                                                                          }
-                                                                                                                                                                                                        ],
-                                                                                                                                                                                                        "Dependencies": [
-                                                                                                                                                                                                          {
-                                                                                                                                                                                                            "$ref": "53"
-                                                                                                                                                                                                          },
-                                                                                                                                                                                                          {
-                                                                                                                                                                                                            "$ref": "17"
-                                                                                                                                                                                                          },
-                                                                                                                                                                                                          {
-                                                                                                                                                                                                            "$ref": "128"
-                                                                                                                                                                                                          }
-                                                                                                                                                                                                        ],
-                                                                                                                                                                                                        "Name": "Penguin.Persistence.Repositories.EntityFramework"
-                                                                                                                                                                                                      }
-                                                                                                                                                                                                    ],
-                                                                                                                                                                                                    "Dependencies": [
-                                                                                                                                                                                                      {
-                                                                                                                                                                                                        "$ref": "55"
-                                                                                                                                                                                                      },
-                                                                                                                                                                                                      {
-                                                                                                                                                                                                        "$ref": "9"
-                                                                                                                                                                                                      },
-                                                                                                                                                                                                      {
-                                                                                                                                                                                                        "$ref": "3"
-                                                                                                                                                                                                      }
-                                                                                                                                                                                                    ],
-                                                                                                                                                                                                    "Name": "Penguin.Persistence.EntityFramework"
+                                                                                                                                                                                                    "$ref": "118"
                                                                                                                                                                                                   }
                                                                                                                                                                                                 ],
                                                                                                                                                                                                 "Dependencies": [
@@ -2385,7 +2426,10 @@
                                                                                                                                                                                             "Name": "Penguin.Cms.Logging.Entities"
                                                                                                                                                                                           },
                                                                                                                                                                                           {
-                                                                                                                                                                                            "$ref": "129"
+                                                                                                                                                                                            "$ref": "33"
+                                                                                                                                                                                          },
+                                                                                                                                                                                          {
+                                                                                                                                                                                            "$ref": "117"
                                                                                                                                                                                           },
                                                                                                                                                                                           {
                                                                                                                                                                                             "$ref": "70"
@@ -2407,7 +2451,7 @@
                                                                                                                                                                                         "$ref": "74"
                                                                                                                                                                                       },
                                                                                                                                                                                       {
-                                                                                                                                                                                        "$id": "130",
+                                                                                                                                                                                        "$id": "132",
                                                                                                                                                                                         "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                         "lockGraph": {
                                                                                                                                                                                           "$type": "System.Object, System.Private.CoreLib"
@@ -2435,7 +2479,7 @@
                                                                                                                                                                                 "Name": "Penguin.Messaging.DependencyInjection"
                                                                                                                                                                               },
                                                                                                                                                                               {
-                                                                                                                                                                                "$id": "131",
+                                                                                                                                                                                "$id": "133",
                                                                                                                                                                                 "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                 "lockGraph": {
                                                                                                                                                                                   "$type": "System.Object, System.Private.CoreLib"
@@ -2449,7 +2493,7 @@
                                                                                                                                                                                 ],
                                                                                                                                                                                 "Dependencies": [
                                                                                                                                                                                   {
-                                                                                                                                                                                    "$id": "132",
+                                                                                                                                                                                    "$id": "134",
                                                                                                                                                                                     "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                                                     "lockGraph": {
                                                                                                                                                                                       "$type": "System.Object, System.Private.CoreLib"
@@ -2458,7 +2502,7 @@
                                                                                                                                                                                     "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Web.Testing\\Penguin.Web.Testing.csproj",
                                                                                                                                                                                     "Dependants": [
                                                                                                                                                                                       {
-                                                                                                                                                                                        "$ref": "131"
+                                                                                                                                                                                        "$ref": "133"
                                                                                                                                                                                       }
                                                                                                                                                                                     ],
                                                                                                                                                                                     "Dependencies": [],
@@ -2535,7 +2579,7 @@
                                                                                                                                                         "$ref": "42"
                                                                                                                                                       },
                                                                                                                                                       {
-                                                                                                                                                        "$id": "133",
+                                                                                                                                                        "$id": "135",
                                                                                                                                                         "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                                                                         "lockGraph": {
                                                                                                                                                           "$type": "System.Object, System.Private.CoreLib"
@@ -2595,13 +2639,13 @@
                                                                                                                                             "$ref": "60"
                                                                                                                                           },
                                                                                                                                           {
-                                                                                                                                            "$ref": "121"
+                                                                                                                                            "$ref": "125"
                                                                                                                                           },
                                                                                                                                           {
                                                                                                                                             "$ref": "38"
                                                                                                                                           },
                                                                                                                                           {
-                                                                                                                                            "$ref": "133"
+                                                                                                                                            "$ref": "135"
                                                                                                                                           },
                                                                                                                                           {
                                                                                                                                             "$ref": "45"
@@ -2609,7 +2653,7 @@
                                                                                                                                         ],
                                                                                                                                         "Dependencies": [
                                                                                                                                           {
-                                                                                                                                            "$ref": "118"
+                                                                                                                                            "$ref": "122"
                                                                                                                                           },
                                                                                                                                           {
                                                                                                                                             "$ref": "104"
@@ -2636,7 +2680,7 @@
                                                                                                                                     "$ref": "107"
                                                                                                                                   },
                                                                                                                                   {
-                                                                                                                                    "$ref": "125"
+                                                                                                                                    "$ref": "129"
                                                                                                                                   }
                                                                                                                                 ],
                                                                                                                                 "Dependencies": [],
@@ -2654,13 +2698,13 @@
                                                                                                                         ],
                                                                                                                         "Dependencies": [
                                                                                                                           {
-                                                                                                                            "$ref": "122"
+                                                                                                                            "$ref": "126"
                                                                                                                           },
                                                                                                                           {
                                                                                                                             "$ref": "55"
                                                                                                                           },
                                                                                                                           {
-                                                                                                                            "$ref": "116"
+                                                                                                                            "$ref": "120"
                                                                                                                           }
                                                                                                                         ],
                                                                                                                         "Name": "Penguin.Cms.Errors"
@@ -2675,7 +2719,7 @@
                                                                                                                     "$ref": "31"
                                                                                                                   },
                                                                                                                   {
-                                                                                                                    "$ref": "124"
+                                                                                                                    "$ref": "128"
                                                                                                                   },
                                                                                                                   {
                                                                                                                     "$ref": "89"
@@ -2694,7 +2738,7 @@
                                                                                                             "Name": "Penguin.Workers.Abstractions"
                                                                                                           },
                                                                                                           {
-                                                                                                            "$ref": "124"
+                                                                                                            "$ref": "128"
                                                                                                           },
                                                                                                           {
                                                                                                             "$ref": "33"
@@ -2729,10 +2773,10 @@
                                                                                                 "$ref": "73"
                                                                                               },
                                                                                               {
-                                                                                                "$ref": "63"
+                                                                                                "$ref": "61"
                                                                                               },
                                                                                               {
-                                                                                                "$ref": "61"
+                                                                                                "$ref": "63"
                                                                                               },
                                                                                               {
                                                                                                 "$ref": "14"
@@ -2747,7 +2791,7 @@
                                                                                                 "$ref": "21"
                                                                                               },
                                                                                               {
-                                                                                                "$id": "134",
+                                                                                                "$id": "136",
                                                                                                 "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                                 "lockGraph": {
                                                                                                   "$type": "System.Object, System.Private.CoreLib"
@@ -2766,7 +2810,7 @@
                                                                                                 "Name": "Penguin.Cms.Web.Security.Repositories"
                                                                                               },
                                                                                               {
-                                                                                                "$ref": "124"
+                                                                                                "$ref": "128"
                                                                                               }
                                                                                             ],
                                                                                             "Dependencies": [
@@ -2827,7 +2871,7 @@
                                                                                     "$ref": "104"
                                                                                   },
                                                                                   {
-                                                                                    "$id": "135",
+                                                                                    "$id": "137",
                                                                                     "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                     "lockGraph": {
                                                                                       "$type": "System.Object, System.Private.CoreLib"
@@ -2836,7 +2880,7 @@
                                                                                     "_projectFile": "C:\\Penguin\\Repositories\\Penguin.Testing\\Penguin.Testing.csproj",
                                                                                     "Dependants": [
                                                                                       {
-                                                                                        "$id": "136",
+                                                                                        "$id": "138",
                                                                                         "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                         "lockGraph": {
                                                                                           "$type": "System.Object, System.Private.CoreLib"
@@ -2846,7 +2890,7 @@
                                                                                         "Dependants": [],
                                                                                         "Dependencies": [
                                                                                           {
-                                                                                            "$ref": "135"
+                                                                                            "$ref": "137"
                                                                                           }
                                                                                         ],
                                                                                         "Name": "Penguin.Cms.Modules.Testing"
@@ -2866,7 +2910,7 @@
                                                                                     "$ref": "37"
                                                                                   },
                                                                                   {
-                                                                                    "$id": "137",
+                                                                                    "$id": "139",
                                                                                     "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                                     "lockGraph": {
                                                                                       "$type": "System.Object, System.Private.CoreLib"
@@ -2895,7 +2939,7 @@
                                                                                     "$ref": "55"
                                                                                   },
                                                                                   {
-                                                                                    "$ref": "131"
+                                                                                    "$ref": "133"
                                                                                   }
                                                                                 ],
                                                                                 "Name": "Penguin.Cms.Web"
@@ -2923,7 +2967,7 @@
                                                                     ],
                                                                     "Dependencies": [
                                                                       {
-                                                                        "$ref": "121"
+                                                                        "$ref": "125"
                                                                       },
                                                                       {
                                                                         "$ref": "27"
@@ -2935,7 +2979,7 @@
                                                                     "$ref": "18"
                                                                   },
                                                                   {
-                                                                    "$id": "138",
+                                                                    "$id": "140",
                                                                     "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                     "lockGraph": {
                                                                       "$type": "System.Object, System.Private.CoreLib"
@@ -2951,7 +2995,7 @@
                                                                     "Name": "Penguin.Security"
                                                                   },
                                                                   {
-                                                                    "$ref": "119"
+                                                                    "$ref": "123"
                                                                   },
                                                                   {
                                                                     "$ref": "14"
@@ -2960,10 +3004,10 @@
                                                                 "Name": "Penguin.Cms.Modules.Security"
                                                               },
                                                               {
-                                                                "$ref": "134"
+                                                                "$ref": "136"
                                                               },
                                                               {
-                                                                "$id": "139",
+                                                                "$id": "141",
                                                                 "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                 "lockGraph": {
                                                                   "$type": "System.Object, System.Private.CoreLib"
@@ -2984,7 +3028,7 @@
                                                                 "$ref": "17"
                                                               },
                                                               {
-                                                                "$id": "140",
+                                                                "$id": "142",
                                                                 "$type": "Penguin.Management.Environment.DependencyGraph, Penguin.Management",
                                                                 "lockGraph": {
                                                                   "$type": "System.Object, System.Private.CoreLib"
@@ -3000,7 +3044,7 @@
                                                                 "Name": "Penguin.Web.Extensions"
                                                               },
                                                               {
-                                                                "$ref": "121"
+                                                                "$ref": "125"
                                                               },
                                                               {
                                                                 "$ref": "83"
@@ -3012,12 +3056,12 @@
                                                             "$ref": "101"
                                                           },
                                                           {
-                                                            "$ref": "129"
+                                                            "$ref": "117"
                                                           }
                                                         ],
                                                         "Dependencies": [
                                                           {
-                                                            "$ref": "130"
+                                                            "$ref": "132"
                                                           }
                                                         ],
                                                         "Name": "Penguin.Messaging.Persistence"
@@ -3101,7 +3145,7 @@
                                 ],
                                 "Dependencies": [
                                   {
-                                    "$ref": "122"
+                                    "$ref": "126"
                                   },
                                   {
                                     "$ref": "10"
@@ -3119,19 +3163,19 @@
                                 "$ref": "41"
                               },
                               {
-                                "$ref": "126"
+                                "$ref": "130"
                               },
                               {
                                 "$ref": "86"
                               },
                               {
-                                "$ref": "121"
-                              },
-                              {
-                                "$ref": "107"
+                                "$ref": "125"
                               },
                               {
                                 "$ref": "24"
+                              },
+                              {
+                                "$ref": "107"
                               }
                             ],
                             "Dependencies": [
@@ -3160,7 +3204,7 @@
                             "$ref": "8"
                           },
                           {
-                            "$ref": "128"
+                            "$ref": "118"
                           },
                           {
                             "$ref": "101"
@@ -3188,10 +3232,10 @@
                     "Name": "Penguin.Persistence.DependencyInjection"
                   },
                   {
-                    "$ref": "128"
+                    "$ref": "118"
                   },
                   {
-                    "$ref": "129"
+                    "$ref": "117"
                   },
                   {
                     "$ref": "44"
@@ -3250,7 +3294,7 @@
             "$ref": "49"
           },
           {
-            "$ref": "128"
+            "$ref": "118"
           },
           {
             "$ref": "101"
@@ -3259,10 +3303,10 @@
             "$ref": "110"
           },
           {
-            "$ref": "135"
+            "$ref": "137"
           },
           {
-            "$ref": "137"
+            "$ref": "139"
           }
         ],
         "Dependencies": [
@@ -3283,13 +3327,13 @@
     "Name": "Penguin.Reflection.Abstractions"
   },
   "LastBuild": {
-    "$id": "141",
+    "$id": "143",
     "$type": "Penguin.Management.LastBuild, Penguin.Management",
     "Time": "0001-01-01T00:00:00",
     "Result": null
   },
   "LocalProjectInfo": {
-    "$id": "142",
+    "$id": "144",
     "$type": "Penguin.Management.Environment.LocalProjectInfo, Penguin.Management",
     "_localProject": "C:\\Penguin\\Repositories\\Penguin.Reflection.Abstractions\\Penguin.Reflection.Abstractions.Local.csproj",
     "_localSLN": "C:\\Penguin\\Repositories\\Penguin.Reflection.Abstractions\\Penguin.Reflection.Abstractions.Local.sln",
