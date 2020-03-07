@@ -8,7 +8,7 @@ namespace Penguin.Reflection.Abstractions
     /// </summary>
     public class AttributeInstance
     {
-        private const string NullAttributeMessage = "Can not instantiate null attribute instance";
+        private const string NULL_ATTRIBUTE_MESSAGE = "Can not instantiate null attribute instance";
 
         #region Properties
 
@@ -41,12 +41,12 @@ namespace Penguin.Reflection.Abstractions
         {
             if (instance is null)
             {
-                throw new Exception(NullAttributeMessage);
+                throw new Exception(NULL_ATTRIBUTE_MESSAGE);
             }
 
-            DeclaringMember = declaringMember;
-            Instance = instance;
-            IsInherited = isInherited;
+            this.DeclaringMember = declaringMember;
+            this.Instance = instance;
+            this.IsInherited = isInherited;
         }
 
         #endregion Constructors
