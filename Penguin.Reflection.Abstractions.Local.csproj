@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Copyright></Copyright>
-    <PackageProjectUrl>https://github.com/penguincms/Penguin.Reflection.Abstractions</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Reflection.Abstractions</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>A few abstract classes for use with the Penguin.Reflection system</Description>
     <AssemblyName>Penguin.Reflection.Abstractions</AssemblyName>
