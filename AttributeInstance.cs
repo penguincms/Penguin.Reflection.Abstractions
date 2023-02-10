@@ -44,9 +44,9 @@ namespace Penguin.Reflection.Abstractions
                 throw new Exception(NULL_ATTRIBUTE_MESSAGE);
             }
 
-            this.DeclaringMember = declaringMember;
-            this.Instance = instance;
-            this.IsInherited = isInherited;
+            DeclaringMember = declaringMember;
+            Instance = instance;
+            IsInherited = isInherited;
         }
 
         #endregion Constructors
