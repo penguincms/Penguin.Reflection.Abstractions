@@ -4,34 +4,6 @@
         <name>Penguin.Reflection.Abstractions</name>
     </assembly>
     <members>
-        <member name="T:Penguin.Reflection.Abstractions.AttributeInstance">
-            <summary>
-            An instance of an attribute
-            </summary>
-        </member>
-        <member name="P:Penguin.Reflection.Abstractions.AttributeInstance.DeclaringMember">
-            <summary>
-            The type/property that this was declared on
-            </summary>
-        </member>
-        <member name="P:Penguin.Reflection.Abstractions.AttributeInstance.Instance">
-            <summary>
-            And instantiated version of the attribute
-            </summary>
-        </member>
-        <member name="P:Penguin.Reflection.Abstractions.AttributeInstance.IsInherited">
-            <summary>
-            Is this attribute defined on a parent type/overridden property from where it was retrieved?
-            </summary>
-        </member>
-        <member name="M:Penguin.Reflection.Abstractions.AttributeInstance.#ctor(System.Reflection.MemberInfo,System.Attribute,System.Boolean)">
-            <summary>
-            Constructs a new instance
-            </summary>
-            <param name="declaringMember">Where the attribute was declared</param>
-            <param name="instance">An instance of this attribute</param>
-            <param name="isInherited">Is this attribute defined on a parent type/overridden property from where it was retrieved?</param>
-        </member>
         <member name="T:Penguin.Reflection.Abstractions.CoreType">
             <summary>
             The simplest usable unit of a type check
